@@ -62,13 +62,13 @@ for pubsource in publist:
     for bib_id in bibdata.entries:
         #reset default date
         pub_year = "1900"
-        pub_month = "01"
-        pub_day = "01"
+        pub_month = "06"
+        pub_day = "15"
         
         b = bibdata.entries[bib_id].fields
         
         try:
-            pub_year = f'{b["year"]}'
+            pub_year = b["year"]
 
             #todo: this hack for month and day needs some cleanup
             if "month" in b.keys(): 
@@ -85,6 +85,7 @@ for pubsource in publist:
 
                 
             pub_date = pub_year+"-"+pub_month+"-"+pub_day
+            #pub_date = ""
             
             #strip out {} as needed (some bibtex entries that maintain formatting)
             clean_title = b["title"].replace("{", "").replace("}","").replace("\\","").replace(" ","-")    
