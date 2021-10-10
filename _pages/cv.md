@@ -16,10 +16,10 @@ Work experience
   * Bitdefender
   * Duties included: 
     * Design and implementation of detection techniques and systems.
-    * Responsible with detection of non-executable files.
-    * Responsible for the file-less attack detection.
-    * Remote scanning and detection framework - design and implementation.
-    * Detection methods for security analitics engines.
+    * Detection of non-executable files.
+    * File-less attack detection.
+    * Remote scanning and cloud based detection framework - design and implementation.
+    * Security analitics engines - detection guidance.
     * Knowledge transfer between academia and industry on threat detection topics.
 
 * Fall 2019 - Present: Teaching Assistant
@@ -36,7 +36,7 @@ Work experience
     * Formal Languages, Automata and Compilers 
     * Advanced Programming (Java)
     * Android Programming
-    * Statstics and Probability Theory
+    * Statistics and Probability Theory
 
 * June 2009 - Sept 2014 - Malware/Security Researcher
   * Bitdefender
@@ -66,8 +66,8 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service
+Projects
 ======
-* Coordination of the technical contributions of Bitdefender to the following EU H2020 Projects:
+* Coordination of the technical contributions:
   * [CONCORDIA](https://www.concordia-h2020.eu/)
   * [HEIR](https://heir2020.eu/)
