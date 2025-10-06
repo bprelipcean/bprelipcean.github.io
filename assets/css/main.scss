@@ -4,8 +4,10 @@
 
 @charset "utf-8";
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'air' }}"; // skin
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'neon' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* Allow base theme to show through more */
 
 /* ==========================================================================
    MODERN ACADEMIC THEME OVERRIDES
@@ -15,9 +17,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
 
 :root {
-  /* Modern Color Palette */
-  --primary-color: #2563eb;
-  --primary-dark: #1d4ed8;
+  /* Modern Color Palette - Reduced to let base theme show through */
+  /* --primary-color: #2563eb; */
+  /* --primary-dark: #1d4ed8; */
   --secondary-color: #64748b;
   --accent-color: #06b6d4;
   --success-color: #10b981;
