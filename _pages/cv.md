@@ -19,14 +19,14 @@ redirect_from:
 ### **PhD in Computer Science** | September 2025
 **Université Paris-Est Créteil (UPEC)**, Créteil, France
 - **Duration**: 2020 - September 2025
-- **Dissertation**: "Formal Verification Methods for Automated Threat Detection Systems"
+- **Dissertation**: "Applications of Formal Methods to Malware Detection"
 - **Research Focus**: Formal verification, cybersecurity, automated threat detection
 - **Status**: Successfully Defended ✅
 
 ### **Master of Science in Information Security** | 2013
 **"Alexandru Ioan Cuza" University of Iași**, Romania
 - **Duration**: 2011 - 2013
-- **Specialization**: Cybersecurity and Information Systems Security
+- **Specialization**: Information Security
 - **Focus**: Advanced cryptography, network security, malware analysis
 
 ### **Bachelor of Science in Computer Science** | 2011

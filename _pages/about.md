@@ -15,7 +15,7 @@ redirect_from:
 
 ## 🎓 Academic & Professional Overview
 
-I recently **completed my PhD in Computer Science** at UPEC (Université Paris-Est Créteil) in **September 2025**, specializing in formal verification methods for threat detection systems. My doctoral research successfully bridged theoretical computer science with practical cybersecurity applications.
+I  **completed my PhD in Computer Science** at UPEC (Université Paris-Est Créteil), specializing in formal verification methods for threat detection systems. My doctoral research successfully bridged theoretical computer science with practical cybersecurity applications.
 
 Currently, I serve as **Manager, Core Threat Protection & Intelligence** at **Bitdefender**, where I lead strategic initiatives in threat detection and intelligence operations. With **16+ years at Bitdefender**, I've progressed from Malware Researcher to my current management role, developing cutting-edge security technologies that protect millions of users worldwide.
 
@@ -27,11 +27,19 @@ My work spans both theoretical research and practical implementations in:
 - **Formal Verification**: Mathematical approaches to security system validation
 - **Threat Detection**: Advanced ML-based detection mechanisms
 - **File-less Attacks**: Pre-execution protection and behavioral analysis
-- **Cloud Security**: Scalable security architectures for distributed environments
+- **Lightweight System for Detection**: Scalable security architectures for distributed environments
 
 ## 📄 Complete Details
 
 For comprehensive information about my professional experience, publications, and achievements, please visit my **[detailed CV page](/cv/)**.
+
+## 🌱 Personal Interests
+
+Beyond cybersecurity research, I'm passionate about:
+- **🏍️ Motorcycles**: Weekend rides and motorcycle maintenance
+- **✈️ Travel**: Exploring new cultures and places worldwide
+- **📚 Reading**: Technical books, science fiction, and philosophy
+- **🧑‍🏫 Knowledge Sharing**: Speaking at conferences and mentoring students
 
 ## 🤝 Collaboration
 
