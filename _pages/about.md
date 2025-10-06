@@ -23,19 +23,26 @@ With over **10 years of experience** in the cybersecurity industry, I've been in
 - **Cloud Security**: Building lightweight, scalable detection systems for cloud environments
 - **Formal Verification**: Researching mathematical approaches to security validation
 
-## 🎓 Academic Journey
+## 🎓 Academic Achievement
 
-I'm currently pursuing my **PhD in Computer Science** at UPEC (Université Paris-Est Créteil), focusing on formal verification methods for threat detection problems. This research bridges the gap between theoretical computer science and practical cybersecurity applications.
+I have **completed my PhD in Computer Science** at UPEC (Université Paris-Est Créteil), where my research focused on formal verification methods for threat detection problems. My doctoral work successfully bridged the gap between theoretical computer science and practical cybersecurity applications, contributing novel approaches to automated threat analysis.
 
-As a **teaching assistant** at the Faculty of Computer Science, UAIC, Iași, I'm passionate about transferring knowledge between academia and industry. I believe in nurturing the next generation of cybersecurity professionals through hands-on learning and real-world applications.
+As a **faculty member** at the Faculty of Computer Science, UAIC, Iași, I'm passionate about transferring knowledge between academia and industry. I believe in nurturing the next generation of cybersecurity professionals through hands-on learning and real-world applications, drawing from both my research experience and industry practice.
 
 ## 🏢 Professional Experience
 
 Currently working as a **Senior Security Researcher** at Bitdefender, where I:
-- Lead research initiatives on advanced threat detection
-- Develop machine learning models for malware classification
-- Collaborate with international research teams
-- Mentor junior researchers and engineers
+- Lead cutting-edge research initiatives on advanced threat detection and prevention
+- Develop and deploy machine learning models for malware classification and behavioral analysis
+- Collaborate with international research teams on cybersecurity innovations
+- Mentor junior researchers, engineers, and PhD candidates
+- Bridge academic research with practical industry applications
+- Contribute to strategic security product development
+
+### Academic Positions
+- **Faculty Member** - Faculty of Computer Science, UAIC, Iași
+- **Research Collaborator** - UPEC (Université Paris-Est Créteil)
+- **Guest Lecturer** - Various cybersecurity and formal methods courses
 
 ## 🌱 Personal Interests
 

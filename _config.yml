@@ -11,11 +11,11 @@ minimal_mistakes_skin: "neon" # Bright, colorful theme - very noticeable
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Bogdan Prelipcean"
+title                    : "Dr. Bogdan Prelipcean"
 title_separator          : "-"
-subtitle                 : "Academic Profile & Research"
-name                     : &name "Bogdan Prelipcean"
-description              : &description "Personal academic website of Bogdan Prelipcean - Research, Publications, Teaching, and Professional Activities"
+subtitle                 : "PhD in Computer Science | Senior Security Researcher"
+name                     : &name "Dr. Bogdan Prelipcean"  
+description              : &description "Personal academic website of Dr. Bogdan Prelipcean - PhD in Computer Science, Senior Security Researcher specializing in formal verification, cybersecurity, and threat detection"
 url                      : https://bprelipcean.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "bprelipcean/bprelipcean.github.io"
@@ -83,11 +83,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Bogdan Prelipcean"
+  name             : "Dr. Bogdan Prelipcean"
   avatar           : "profile.jpg"
-  bio              : ""
-  location         : "Iasi"
-  employer         :  Bitdefender, UAIC and UPEC
+  bio              : "PhD in Computer Science | Senior Security Researcher | Cybersecurity Expert"
+  location         : "Iasi, Romania"
+  employer         : "Bitdefender, UAIC"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=mv_-vPAAAAAJ"
   email            : "prelipcean.db_at_gmail.com"
