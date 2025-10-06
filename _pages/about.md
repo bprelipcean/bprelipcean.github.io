@@ -25,24 +25,39 @@ With over **10 years of experience** in the cybersecurity industry, I've been in
 
 ## 🎓 Academic Achievement
 
-I have **completed my PhD in Computer Science** at UPEC (Université Paris-Est Créteil), where my research focused on formal verification methods for threat detection problems. My doctoral work successfully bridged the gap between theoretical computer science and practical cybersecurity applications, contributing novel approaches to automated threat analysis.
+I have **completed my PhD in Computer Science** at UPEC (Université Paris-Est Créteil) in **September 2025**, where my research focused on formal verification methods for threat detection problems. My doctoral work successfully bridged the gap between theoretical computer science and practical cybersecurity applications, contributing novel approaches to automated threat analysis.
 
-As a **faculty member** at the Faculty of Computer Science, UAIC, Iași, I'm passionate about transferring knowledge between academia and industry. I believe in nurturing the next generation of cybersecurity professionals through hands-on learning and real-world applications, drawing from both my research experience and industry practice.
+As a **Teaching Assistant** at the Faculty of Computer Science, UAIC, Iași, I have been passionate about transferring knowledge between academia and industry for over **12 years**. I believe in nurturing the next generation of cybersecurity professionals through hands-on learning and real-world applications, teaching courses in Advanced Programming (Java), Formal Languages & Automata, Information Security, and Mobile Application Development.
 
 ## 🏢 Professional Experience
 
-Currently working as a **Senior Security Researcher** at Bitdefender, where I:
-- Lead cutting-edge research initiatives on advanced threat detection and prevention
-- Develop and deploy machine learning models for malware classification and behavioral analysis
-- Collaborate with international research teams on cybersecurity innovations
-- Mentor junior researchers, engineers, and PhD candidates
-- Bridge academic research with practical industry applications
-- Contribute to strategic security product development
+Currently serving as **Manager, Core Threat Protection & Intelligence** at Bitdefender (January 2025 - Present), where I lead strategic initiatives in threat detection and intelligence. With over **16 years at Bitdefender**, my career progression includes:
 
-### Academic Positions
-- **Faculty Member** - Faculty of Computer Science, UAIC, Iași
-- **Research Collaborator** - UPEC (Université Paris-Est Créteil)
-- **Guest Lecturer** - Various cybersecurity and formal methods courses
+### **Current Role: Manager, Core Threat Protection & Intelligence** (2025 - Present)
+- Strategic leadership of core threat protection technologies
+- Management of threat intelligence operations and research initiatives
+- Cross-functional collaboration with product development and security research teams
+- Driving innovation in next-generation threat detection systems
+
+### **Previous Role: Senior Team Lead, Cyber Threat Intelligence Lab** (2014 - 2025)
+- Led a world-class team focused on advanced threat detection research and development
+- Developed cutting-edge heuristic detection systems, from generic signatures to ML-based solutions
+- Built detection engines for non-executable files (JS, VBS, Java bytecode)
+- Pioneered file-less attack detection and pre-execution protection systems
+- Designed lightweight antimalware scanners and cloud-based detection frameworks
+- Implemented security analytics engines based on Apache Flink
+- Provided technical expertise to EU-funded cybersecurity projects
+
+### **Foundation: Malware Researcher** (2009 - 2014)
+- Advanced malware analysis and reverse engineering
+- Development of heuristic detection algorithms
+- Fast incident response and threat analysis
+- Android malware research and detection systems
+
+### **Academic Positions**
+- **Teaching Assistant** - Faculty of Computer Science, UAIC, Iași (2019 - Present)
+- **Teaching Collaborator** - Faculty of Computer Science, UAIC, Iași (2013 - 2019)
+- **Total Teaching Experience**: 12+ years in academia
 
 ## 🌱 Personal Interests
 
