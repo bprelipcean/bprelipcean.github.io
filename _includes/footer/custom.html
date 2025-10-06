@@ -1,3 +1,54 @@
-<!-- start custom footer snippets -->
-<a href="/sitemap/">Sitemap</a>
-<!-- end custom footer snippets -->
+<!-- Modern JavaScript Enhancements -->
+<script src="{{ '/assets/js/modern-enhancements.js' | relative_url }}"></script>
+
+<!-- Enhanced Analytics (placeholder for when you add tracking) -->
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script> -->
+
+<!-- Modern performance improvements -->
+<script>
+  // Preload critical resources
+  if ('requestIdleCallback' in window) {
+    requestIdleCallback(() => {
+      // Preload next likely pages
+      const navLinks = document.querySelectorAll('.greedy-nav a[href^="/"]');
+      navLinks.forEach(link => {
+        const preloadLink = document.createElement('link');
+        preloadLink.rel = 'prefetch';
+        preloadLink.href = link.href;
+        document.head.appendChild(preloadLink);
+      });
+    });
+  }
+  
+  // Service Worker registration (for future PWA features)
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      // navigator.serviceWorker.register('/sw.js');
+    });
+  }
+</script>
+
+<!-- Structured Data for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "{{ site.author.name }}",
+  "url": "{{ site.url }}",
+  "sameAs": [
+    {% if site.author.linkedin %}"{{ site.author.linkedin }}",{% endif %}
+    {% if site.author.googlescholar %}"{{ site.author.googlescholar }}",{% endif %}
+    {% if site.author.github %}"https://github.com/{{ site.author.github }}",{% endif %}
+    {% if site.author.researchgate %}"{{ site.author.researchgate }}"{% endif %}
+  ],
+  "jobTitle": "Senior Security Researcher",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "{{ site.author.employer }}"
+  },
+  "alumniOf": {
+    "@type": "Organization",
+    "name": "UAIC, Faculty of Computer Science"
+  }
+}
+</script>

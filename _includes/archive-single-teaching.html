@@ -69,15 +69,15 @@
     {% endif %}
 
     {% if post.syllabus or post.materials or post.assignments %}
-      <div class="archive__item-links">
+      <div class="archive__item-links" style="margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.5rem;">
         {% if post.syllabus %}
-          <a href="{{ post.syllabus }}" class="btn btn--primary btn--small" target="_blank">📄 Syllabus</a>
+          <a href="{{ post.syllabus }}" class="btn btn--primary" target="_blank" style="font-size: 0.8rem;">📄 Syllabus</a>
         {% endif %}
         {% if post.materials %}
-          <a href="{{ post.materials }}" class="btn btn--info btn--small" target="_blank">📚 Materials</a>
+          <a href="{{ post.materials }}" class="btn btn--outline" target="_blank" style="font-size: 0.8rem;">📚 Materials</a>
         {% endif %}
         {% if post.assignments %}
-          <a href="{{ post.assignments }}" class="btn btn--warning btn--small" target="_blank">📝 Assignments</a>
+          <a href="{{ post.assignments }}" class="btn btn--outline" target="_blank" style="font-size: 0.8rem;">📝 Assignments</a>
         {% endif %}
       </div>
     {% endif %}
@@ -85,17 +85,3 @@
   </article>
 </div>
 
-<style>
-.archive__item-links {
-  margin-top: 10px;
-}
-
-.archive__item-links .btn {
-  margin-right: 5px;
-  margin-bottom: 5px;
-}
-
-.archive__item-excerpt {
-  margin-bottom: 5px;
-}
-</style>
