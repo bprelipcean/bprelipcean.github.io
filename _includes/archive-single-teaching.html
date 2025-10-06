@@ -1,0 +1,101 @@
+{% include base_path %}
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if include.type == "grid" and teaser %}
+      <div class="archive__item-teaser">
+        <img src=
+          {% if teaser contains "://" %}
+            "{{ teaser }}"
+          {% else %}
+            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+          {% endif %}
+          alt="">
+      </div>
+    {% endif %}
+
+    <h2 class="archive__item-title" itemprop="headline">
+      {% if post.link %}
+        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+      {% else %}
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+      {% endif %}
+    </h2>
+    
+    {% if post.type %}
+      <p class="archive__item-excerpt"><strong>{{ post.type }}</strong></p>
+    {% endif %}
+    
+    {% if post.venue %}
+      <p class="archive__item-excerpt"><strong>Venue:</strong> {{ post.venue }}</p>
+    {% endif %}
+    
+    {% if post.semester %}
+      <p class="archive__item-excerpt"><strong>Semester:</strong> {{ post.semester }}</p>
+    {% endif %}
+    
+    {% if post.credits %}
+      <p class="archive__item-excerpt"><strong>Credits:</strong> {{ post.credits }}</p>
+    {% endif %}
+    
+    {% if post.enrollment %}
+      <p class="archive__item-excerpt"><strong>Enrollment:</strong> {{ post.enrollment }} students</p>
+    {% endif %}
+
+    {% if post.read_time %}
+      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+    {% endif %}
+
+    {% if post.date %}
+      <p class="page__meta">
+        <i class="fa fa-calendar" aria-hidden="true"></i> 
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+      </p>
+    {% endif %}
+
+    {% if post.excerpt %}
+      <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>
+    {% endif %}
+
+    {% if post.syllabus or post.materials or post.assignments %}
+      <div class="archive__item-links">
+        {% if post.syllabus %}
+          <a href="{{ post.syllabus }}" class="btn btn--primary btn--small" target="_blank">📄 Syllabus</a>
+        {% endif %}
+        {% if post.materials %}
+          <a href="{{ post.materials }}" class="btn btn--info btn--small" target="_blank">📚 Materials</a>
+        {% endif %}
+        {% if post.assignments %}
+          <a href="{{ post.assignments }}" class="btn btn--warning btn--small" target="_blank">📝 Assignments</a>
+        {% endif %}
+      </div>
+    {% endif %}
+
+  </article>
+</div>
+
+<style>
+.archive__item-links {
+  margin-top: 10px;
+}
+
+.archive__item-links .btn {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.archive__item-excerpt {
+  margin-bottom: 5px;
+}
+</style>

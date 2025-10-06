@@ -5,12 +5,95 @@ permalink: /teaching/
 author_profile: true
 ---
 
+<div class="teaching-intro">
+  <p><strong>Welcome to my teaching resources page.</strong> Here you'll find information about courses I teach, including syllabi, lecture materials, assignments, and other helpful resources for students.</p>
+  
+  <p>📧 <strong>Contact for teaching-related questions:</strong> bprelipcean_at_info.uaic.ro</p>
+  
+  <p>📅 <strong>Office Hours:</strong> By appointment - please email to schedule</p>
+</div>
 
+<hr>
 
-{% include base_path %}
+<h2>Current & Recent Courses</h2>
 
-<p> For teaching issues please contact me at bprelipcean_at_info.uaic.ro</p>
+{% assign current_courses = site.teaching | where: "current", true %}
+{% assign past_courses = site.teaching | where: "current", false %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+{% if current_courses.size > 0 %}
+  <h3>📚 Currently Teaching</h3>
+  <div class="current-courses">
+    {% for post in current_courses reversed %}
+      {% include archive-single-teaching.html %}
+    {% endfor %}
+  </div>
+{% endif %}
+
+{% if past_courses.size > 0 %}
+  <h3>📖 Previously Taught</h3>
+  <div class="past-courses">
+    {% for post in past_courses reversed %}
+      {% include archive-single-teaching.html %}
+    {% endfor %}
+  </div>
+{% endif %}
+
+<hr>
+
+<h2>📋 Teaching Philosophy & Resources</h2>
+
+<div class="teaching-philosophy">
+  <p>My teaching approach focuses on:</p>
+  <ul>
+    <li><strong>Hands-on Learning:</strong> Practical exercises and real-world applications</li>
+    <li><strong>Interactive Engagement:</strong> Discussion-based learning and collaborative projects</li>
+    <li><strong>Progressive Difficulty:</strong> Building concepts step-by-step with clear foundations</li>
+    <li><strong>Modern Tools:</strong> Using current industry-standard tools and methodologies</li>
+    <li><strong>Open Communication:</strong> Encouraging questions and providing timely feedback</li>
+  </ul>
+</div>
+
+<div class="teaching-resources">
+  <h3>🛠️ General Resources for Students</h3>
+  <ul>
+    <li><a href="/files/study-guide.pdf" target="_blank">📖 Study Guide & Tips</a></li>
+    <li><a href="/files/academic-integrity.pdf" target="_blank">⚖️ Academic Integrity Guidelines</a></li>
+    <li><a href="/teaching/help/" target="_blank">❓ Getting Help & Support</a></li>
+  </ul>
+</div>
+
+<style>
+.teaching-intro {
+  background: #f8f9fa;
+  padding: 20px;
+  border-left: 4px solid #007bff;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+.current-courses, .past-courses {
+  margin-bottom: 30px;
+}
+
+.teaching-philosophy {
+  background: #f0f8ff;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.teaching-resources {
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.teaching-resources ul, .teaching-philosophy ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.teaching-resources li, .teaching-philosophy li {
+  padding: 5px 0;
+}
+</style>
