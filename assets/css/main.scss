@@ -4,82 +4,74 @@
 
 @charset "utf-8";
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'neon' }}"; // skin
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'dark' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-/* ==========================================================================
-   MINIMAL CUSTOM ENHANCEMENTS - Let base theme show through
-   ========================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
-/* Only keep essential modern features that enhance rather than override */
+$bg: #0f172a;
+$surface: #1e293b;
+$border: #334155;
+$text: #e2e8f0;
+$muted: #94a3b8;
+$accent: #60a5fa;
 
-/* Modern Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-
-/* Subtle enhancements without overriding theme colors */
-.page__content {
+body {
+  background: $bg;
+  color: $text;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
-/* Modern card hover effects */
-.archive__item:hover {
-  transform: translateY(-2px);
-  transition: transform 0.3s ease;
+.masthead,
+.masthead__menu,
+.greedy-nav,
+.page__footer,
+.greedy-nav .visible-links a:before {
+  background: $bg;
+  border-color: $border;
 }
 
-/* Modern button enhancements */
-.btn {
-  border-radius: 6px;
-  transition: all 0.2s ease;
+.masthead { border-bottom: 1px solid $border; }
+.greedy-nav a, .site-title { color: $text; }
+.greedy-nav a:hover { color: $accent; }
+.greedy-nav button { background: $surface; }
+
+.page__title, .page__content h1, .page__content h2, .page__content h3,
+.archive__item-title, .archive__item-title a, .author__name {
+  color: #f8fafc;
+  font-family: 'Inter', sans-serif;
 }
 
-.btn:hover {
-  transform: translateY(-1px);
-}
+.page__title { font-size: 1.8rem; font-weight: 600; }
 
-/* Teaching intro enhancement */
-.teaching-intro {
-  padding: 2rem;
-  border-radius: 1rem;
-  margin-bottom: 2rem;
-}
+.page__content {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: $text;
 
-/* Publication grid for better layout */
-.publications-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem;
-  margin-top: 1.5rem;
-}
-
-.publication-card {
-  transition: transform 0.3s ease;
-}
-
-.publication-card:hover {
-  transform: translateY(-4px);
-}
-
-/* Smooth scrolling */
-html {
-  scroll-behavior: smooth;
-}
-
-/* Focus improvements for accessibility */
-*:focus-visible {
-  outline: 2px solid currentColor;
-  outline-offset: 2px;
-}
-
-/* Mobile responsiveness */
-@media screen and (max-width: 768px) {
-  .publications-grid {
-    grid-template-columns: 1fr;
+  h2 {
+    margin-top: 2rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid $border;
+    font-size: 1.35rem;
   }
-  
-  .teaching-intro {
-    padding: 1rem;
-  }
+  h3 { margin-top: 1.5rem; font-size: 1.05rem; }
+  hr { border-color: $border; }
 }
 
-/* End of minimal enhancements */
+a { color: $accent; text-decoration: none; }
+a:hover { text-decoration: underline; color: lighten($accent, 8%); }
+
+.author__bio, .page__meta, .archive__item-excerpt { color: $muted; }
+.author__urls-wrapper button { background: $surface; color: $text; }
+.author__urls { background: $surface; border-color: $border; }
+.sidebar .author__urls a { color: $text; }
+
+.btn { border-radius: 4px; }
+
+.page__footer { margin-top: 3rem; border-top: 1px solid $border; color: $muted; }
+.page__footer a { color: $muted; }
+
+code, pre, .highlight { background: $surface; color: $text; }
+table, th, td { border-color: $border; }
+th { background: $surface; }

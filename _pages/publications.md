@@ -5,35 +5,37 @@ permalink: /publications/
 author_profile: true
 ---
 
-<div class="publications-header">
-  <h2 style="margin-top: 0;">Research Publications</h2>
-  <p>My research focuses on cybersecurity, malware detection, and machine learning applications in security. Below you'll find my published works in peer-reviewed conferences and journals.</p>
-  
-  {% if site.author.googlescholar %}
-    <div style="margin: 1.5rem 0;">
-      <a href="{{ site.author.googlescholar }}" class="btn btn--primary" target="_blank">
-        📊 View Google Scholar Profile
-      </a>
-      <a href="{{ site.author.researchgate }}" class="btn btn--outline" target="_blank" style="margin-left: 0.5rem;">
-        🔬 ResearchGate Profile
-      </a>
-    </div>
-  {% endif %}
-</div>
+## 2025
 
-<hr style="margin: 2rem 0;">
+- Dumitru-Bogdan Prelipcean. *Applications of formal methods to malware detection.* PhD thesis, Université Paris-Est Créteil, 2025.
+- Dumitru-Bogdan Prelipcean, Catalin Dima, Daniele Varacca. *Formal Construction of Threat Detections from Attack Trees.* ICFEM 2025, pp. 172-188.
+- Dumitru-Bogdan Prelipcean, Catalin Dima. *Bridging Threat Models and Detections: Formal Verification via CADP.* FROM 2025, pp. 59-78.
 
-<div class="publications-grid">
-  {% for post in site.publications reversed %}
-    <div class="publication-card">
-      {% include archive-single.html %}
-    </div>
-  {% endfor %}
-</div>
+## 2024
 
-{% if site.publications.size == 0 %}
-  <div style="text-align: center; padding: 3rem; background: #f8fafc; border-radius: 1rem; border: 1px solid #e2e8f0;">
-    <h3>Publications Coming Soon</h3>
-    <p>I'm currently working on several research papers. Check back soon for updates!</p>
-  </div>
-{% endif %}
+- Michail Smyrlis, Evangelos Floros, Ioannis Basdekis, Dumitru-Bogdan Prelipcean, Aristeidis Sotiropoulos, Hervé Debar, Apostolis Zarras, George Spanoudakis. *RAMA: a risk assessment solution for healthcare organizations.* Int. J. Inf. Sec. 23(3), pp. 1821-1838, 2024.
+
+## 2023
+
+- Konstantinos Lampropoulos et al. *White paper on cybersecurity in the healthcare sector. The HEIR solution.* CoRR abs/2310.10139, 2023.
+
+## 2019
+
+- Silviu Constantin Vitel, Gheorghe Balan, Dumitru-Bogdan Prelipcean. *Improving Detection of Malicious Office Documents Using One-Side Classifiers.* SYNASC 2019, pp. 243-247.
+- Alexandru Gabriel Bucevschi, Gheorghe Balan, Dumitru-Bogdan Prelipcean. *Preventing File-Less Attacks with Machine Learning Techniques.* SYNASC 2019, pp. 248-252.
+
+## 2015
+
+- Adrian-Stefan Popescu, Dumitru-Bogdan Prelipcean, Dragos Teodor Gavrilut. *A Study on Techniques for Proactively Identifying Malicious URLs.* SYNASC 2015, pp. 204-211.
+- Dumitru-Bogdan Prelipcean, Adrian-Stefan Popescu, Dragos Teodor Gavrilut. *Improving Malware Detection Response Time with Behavior-Based Statistical Analysis Techniques.* SYNASC 2015, pp. 232-239.
+
+## 2014
+
+- Marius Barat, Dumitru-Bogdan Prelipcean, Dragos Teodor Gavrilut. *A Practical Approach on Cleaning-Up Large Data Sets.* SYNASC 2014, pp. 280-284.
+
+## 2013
+
+- Marius Barat, Dumitru-Bogdan Prelipcean, Dragos Teodor Gavrilut. *A study on common malware families evolution in 2012.* J. Comput. Virol. Hacking Tech. 9(4), pp. 171-178, 2013.
+- Marius Barat, Dumitru-Bogdan Prelipcean, Dragos Teodor Gavrilut. *An Automatic Updating Perceptron-Based System for Malware Detection.* SYNASC 2013, pp. 303-307.
+
+[Full list on dblp](https://dblp.org/pid/136/0501.html) · [Google Scholar]({{ site.author.googlescholar }})

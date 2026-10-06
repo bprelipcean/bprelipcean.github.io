@@ -71,13 +71,13 @@
     {% if post.syllabus or post.materials or post.assignments %}
       <div class="archive__item-links" style="margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.5rem;">
         {% if post.syllabus %}
-          <a href="{{ post.syllabus }}" class="btn btn--primary" target="_blank" style="font-size: 0.8rem;">📄 Syllabus</a>
+          <a href="{{ post.syllabus }}" class="btn btn--primary" target="_blank" style="font-size: 0.8rem;">Syllabus</a>
         {% endif %}
         {% if post.materials %}
-          <a href="{{ post.materials }}" class="btn btn--outline" target="_blank" style="font-size: 0.8rem;">📚 Materials</a>
+          <a href="{{ post.materials }}" class="btn btn--outline" target="_blank" style="font-size: 0.8rem;">Materials</a>
         {% endif %}
         {% if post.assignments %}
-          <a href="{{ post.assignments }}" class="btn btn--outline" target="_blank" style="font-size: 0.8rem;">📝 Assignments</a>
+          <a href="{{ post.assignments }}" class="btn btn--outline" target="_blank" style="font-size: 0.8rem;">Assignments</a>
         {% endif %}
       </div>
     {% endif %}

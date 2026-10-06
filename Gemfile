@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # Simple Jekyll setup for GitHub Pages compatibility
-gem "github-pages", group: :jekyll_plugins
+gem "github-pages", "~> 232", group: :jekyll_plugins
 
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
@@ -18,3 +18,4 @@ end
 
 # Optional: for local development only
 gem "webrick"
+gem "rexml"

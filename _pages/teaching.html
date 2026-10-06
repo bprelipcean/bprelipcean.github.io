@@ -5,68 +5,10 @@ permalink: /teaching/
 author_profile: true
 ---
 
-<div class="teaching-intro">
-  <h2 style="color: white; margin-top: 0;">Teaching & Education</h2>
-  <p><strong>Welcome to my teaching resources.</strong> Here you'll find comprehensive information about courses I teach, including syllabi, lecture materials, assignments, and helpful resources for students.</p>
-  
-  <div style="display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1.5rem;">
-    <div style="flex: 1; min-width: 250px;">
-      <p><strong>📧 Contact:</strong> bprelipcean_at_info.uaic.ro</p>
-      <p><strong>📅 Office Hours:</strong> By appointment</p>
-    </div>
-    <div style="flex: 1; min-width: 250px;">
-      <p><strong>🏫 Location:</strong> Faculty of Computer Science</p>
-      <p><strong>💬 Languages:</strong> Romanian, English</p>
-    </div>
-  </div>
-</div>
+<p>Faculty of Computer Science, "Alexandru Ioan Cuza" University of Iași.</p>
 
-<hr>
-
-<h2>Current & Recent Courses</h2>
-
-{% assign current_courses = site.teaching | where: "current", true %}
-{% assign past_courses = site.teaching | where: "current", false %}
-
-{% if current_courses.size > 0 %}
-  <h3>📚 Currently Teaching</h3>
-  <div class="current-courses">
-    {% for post in current_courses reversed %}
-      {% include archive-single-teaching.html %}
-    {% endfor %}
-  </div>
-{% endif %}
-
-{% if past_courses.size > 0 %}
-  <h3>📖 Previously Taught</h3>
-  <div class="past-courses">
-    {% for post in past_courses reversed %}
-      {% include archive-single-teaching.html %}
-    {% endfor %}
-  </div>
-{% endif %}
-
-<hr>
-
-<h2>📋 Teaching Philosophy & Resources</h2>
-
-<div class="teaching-philosophy">
-  <p>My teaching approach focuses on:</p>
-  <ul>
-    <li><strong>Hands-on Learning:</strong> Practical exercises and real-world applications</li>
-    <li><strong>Interactive Engagement:</strong> Discussion-based learning and collaborative projects</li>
-    <li><strong>Progressive Difficulty:</strong> Building concepts step-by-step with clear foundations</li>
-    <li><strong>Modern Tools:</strong> Using current industry-standard tools and methodologies</li>
-    <li><strong>Open Communication:</strong> Encouraging questions and providing timely feedback</li>
-  </ul>
-</div>
-
-<div class="teaching-resources">
-  <h3>🛠️ General Resources for Students</h3>
-  <ul>
-    <li><a href="/files/study-guide.pdf" target="_blank">📖 Study Guide & Tips</a></li>
-    <li><a href="/files/academic-integrity.pdf" target="_blank">⚖️ Academic Integrity Guidelines</a></li>
-    <li><a href="/teaching/help/" target="_blank">❓ Getting Help & Support</a></li>
-  </ul>
-</div>
-
+<ul>
+  <li>Advanced Programming (Java)</li>
+  <li>Formal Languages, Automata and Compilers</li>
+  <li>Information Security</li>
+</ul>

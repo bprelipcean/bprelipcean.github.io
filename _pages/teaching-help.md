@@ -4,7 +4,7 @@ permalink: /teaching/help/
 author_profile: true
 ---
 
-## 🤝 How to Get Help
+## How to Get Help
 
 ### Office Hours
 The best way to get personalized help is during office hours. No appointment needed - just drop by!
@@ -15,7 +15,7 @@ The best way to get personalized help is during office hours. No appointment nee
 - **Online Alternative:** Available via Zoom (link sent by email)
 
 ### Email Communication
-📧 **Email:** bprelipcean_at_info.uaic.ro
+**Email:** bprelipcean_at_info.uaic.ro
 
 **Email Guidelines:**
 - Use your university email address
@@ -38,7 +38,7 @@ I encourage forming study groups with classmates:
 - **Focus:** Problem-solving, exam preparation, project collaboration
 - **Resources:** Room reservations available through faculty
 
-## 📚 Academic Resources
+## Academic Resources
 
 ### Learning Support
 - **Math Support Center:** For mathematical concepts
@@ -52,7 +52,7 @@ I encourage forming study groups with classmates:
 - **Best Practices Workshops:** Announced in class
 - **Online Resources:** Links provided in course materials
 
-## 🏥 Wellness & Accommodations
+## Wellness & Accommodations
 
 ### Academic Accommodations
 If you need academic accommodations:
@@ -71,7 +71,7 @@ If you need academic accommodations:
 - **Time Management Tools:** Recommended apps and techniques
 - **Priority Setting:** Guidance during office hours
 
-## 📋 Academic Integrity
+## Academic Integrity
 
 ### What is Expected
 - **Original Work:** All submissions must be your own
@@ -89,7 +89,7 @@ If you need academic accommodations:
 - [Citation Guidelines](/files/citation-guide.pdf)
 - [Plagiarism Detection Tools](/files/plagiarism-info.pdf)
 
-## 💡 Success Tips
+## Success Tips
 
 ### Effective Learning Strategies
 1. **Active Participation:** Engage in class discussions
@@ -112,7 +112,7 @@ If you need academic accommodations:
 - **Testing:** Test code incrementally
 - **Documentation:** Comment code and write clear documentation
 
-## 📞 Emergency Contacts
+## Emergency Contacts
 
 ### Immediate Help
 - **Campus Security:** [Emergency Number]

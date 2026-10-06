@@ -7,7 +7,7 @@
 
 # Theme Settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "dark" # Bright, colorful theme - very noticeable
+minimal_mistakes_skin: "dark"
 
 # Site Settings
 locale                   : "en-US"
@@ -15,7 +15,7 @@ title                    : "Dr. Bogdan Prelipcean"
 title_separator          : "-"
 subtitle                 : "PhD in Computer Science | Manager, Core Threat Protection & Intelligence"
 name                     : &name "Dr. Bogdan Prelipcean"  
-description              : &description "Personal academic website of Dr. Bogdan Prelipcean - PhD in Computer Science, Manager at Bitdefender specializing in formal verification, cybersecurity, and threat intelligence (Updated Oct 2024)"
+description              : &description "Personal website of Dr. Bogdan Prelipcean - PhD in Computer Science, Manager at Bitdefender specializing in formal verification, cybersecurity, and threat intelligence."
 url                      : https://bprelipcean.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "bprelipcean/bprelipcean.github.io"
@@ -294,7 +294,7 @@ whitelist:
 
 
 # Site Search
-search                   : true # true, false (default)
+search                   : false # true, false (default)
 search_full_content      : true # true, false (default)
 search_provider          : lunr # lunr (default), algolia, google
 lunr:
