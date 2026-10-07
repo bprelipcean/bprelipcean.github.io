@@ -13,3 +13,12 @@
   ]
 }
 </script>
+
+<script>
+  document.querySelectorAll('.js-email').forEach(function (a) {
+    a.addEventListener('click', function (e) {
+      e.preventDefault();
+      window.location.href = 'mailto:' + a.dataset.u + '@' + a.dataset.d;
+    });
+  });
+</script>

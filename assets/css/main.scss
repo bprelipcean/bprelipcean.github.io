@@ -9,12 +9,25 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
-$bg: #0f172a;
-$surface: #1e293b;
-$border: #334155;
-$text: #e2e8f0;
-$muted: #94a3b8;
-$accent: #60a5fa;
+// Pick a scheme: gold, teal, blue, sage, rose, slate
+$scheme: sage;
+
+$schemes: (
+  gold:  (#14171c, #1f242c, #343b46, #e6e8eb, #9aa3ad, #d9a441),
+  teal:  (#14171c, #1f242c, #343b46, #e6e8eb, #9aa3ad, #4fb7a8),
+  blue:  (#0f172a, #1e293b, #334155, #e2e8f0, #94a3b8, #7aa7e8),
+  sage:  (#161a17, #212722, #38413a, #e5e9e4, #9aa69c, #8fb996),
+  rose:  (#1a1618, #262123, #3d3539, #ece6e8, #a79da1, #d98ba0),
+  slate: (#0d1117, #161b22, #30363d, #e6edf3, #8b949e, #58a6ff)
+);
+
+$c: map-get($schemes, $scheme);
+$bg: nth($c, 1);
+$surface: nth($c, 2);
+$border: nth($c, 3);
+$text: nth($c, 4);
+$muted: nth($c, 5);
+$accent: nth($c, 6);
 
 body {
   background: $bg;
@@ -75,3 +88,8 @@ a:hover { text-decoration: underline; color: lighten($accent, 8%); }
 code, pre, .highlight { background: $surface; color: $text; }
 table, th, td { border-color: $border; }
 th { background: $surface; }
+
+/* Always show sidebar contact list (no "Follow" toggle) */
+.author__urls-wrapper .author__urls { display: block !important; position: static; box-shadow: none; background: transparent; border: 0; padding: 0; margin: 0.5rem 0 0; }
+.author__urls li, .author__urls a { color: $text; font-size: 0.85rem; }
+.author__urls a:hover { color: $accent; }
