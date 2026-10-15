@@ -13,7 +13,7 @@ redirect_from:
 Lead core threat protection and intelligence teams across research and product development.
 
 **Senior Team Lead, Cyber Threat Intelligence Lab**, Bitdefender. *Nov 2014 – Jan 2025*
-Led a threat detection research team. Built ML-based heuristic detections, detection engines for non-executable files and PowerShell command lines, a lightweight cloud-based scanner, and a security analytics component. Technical contributor to EU projects CONCORDIA and HEIR.
+Led a threat detection research team. Built ML-based heuristic detections, detection engines for non-executable files and PowerShell command lines, a lightweight cloud-based scanner, and a security analytics framework. Technical contributor to EU projects CONCORDIA, HEIR and EU-iNSPIRE.
 
 **Malware Researcher**, Bitdefender. *Jun 2009 – Oct 2014*
 Malware analysis, heuristic detection and auto-updating ML detection systems, including Android.
